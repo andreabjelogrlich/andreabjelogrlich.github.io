@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fabulous Feruco</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Feruco's Kingdom</h1>
+  </header>
+
+  <section id="about">
+    <h2>About Feruco</h2>
+    <p>Fierce, independent, and utterly fabulous, Feruco rules the house with an iron paw.</p>
+    <img src="feruco.jpg" alt="Picture of Feruco">
+  </section>
+
+  <section id="contact">
+    <h2>Send a Message to Feruco</h2>
+    <form id="feruco-form">
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="Tell Feruco what's on your mind..."></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="thought-of-the-day">
+  <h2>Get Feruco's Thought of the Day</h2>
+  <button id="thought-button">FERUCO THOUGHT OF THE DAY</button>
+</section>
+
+
+  <!-- Modal structure for Feruco's response -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-body">
+        <img src="feruco-modal.jpg" alt="Feruco's Meow" class="modal-img">
+        <p id="modal-message"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Feruco Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', sans-serif; /* Gotta have some playful flair! */
+  background-color: #fff3e0; /* A nice light orange to start with */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ff6f00; /* Bold, zesty orange for that punch */
+  color: white;
+  padding: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds some zazz to the title */
+  margin-bottom: 10px;
+}
+
+#about {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffd54f; /* A softer orange section for balance */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ff6f00;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 5px solid #ff6f00; /* A stylish orange border around the image */
+}
+
+footer {
+  margin-top: 50px;
+  color: #777;
+  font-size: 0.9em;
+}
+
+footer p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#contact {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffcc80; /* A lighter orange for the form section */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, textarea {
+  font-size: 1.2em;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ff6f00;
+}
+
+button {
+  background-color: #ff6f00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+#feruco-reply {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #ff6f00;
+}
+/* Modal styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modal-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#modal-message {
+  font-size: 1.5em;
+  color: #ff6f00;
+}
+
+#thought-of-the-day {
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#thought-button {
+  background-color: #ff6f00;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#thought-button:hover {
+  background-color: #e65100;
+}
+
